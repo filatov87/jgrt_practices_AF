@@ -8,7 +8,8 @@ class DiscriminantCalculator {
      * Задание 2: Необходимо дополнить метод таким образом, чтобы результатом было вычисление дискриминанта
      */
     int calculate(int a, int b, int c) {
-        return 0;
+        int calculate =b*b - 4*a*c;
+        return calculate;
     }
 
 }
