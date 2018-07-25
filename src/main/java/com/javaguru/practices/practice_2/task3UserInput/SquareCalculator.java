@@ -11,6 +11,8 @@ public class SquareCalculator {
      * Продемонстрировать работу в классе SquareCalculatorDemo (main метод должен быть только в этом классе)
      */
     int squareResult(int firstNumber) {
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber = scanner.nextInt();
         int squareResult = firstNumber * firstNumber;
         return (squareResult);
     }

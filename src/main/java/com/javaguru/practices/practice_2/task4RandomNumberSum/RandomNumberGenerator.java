@@ -8,7 +8,7 @@ class RandomNumberGenerator {
         int secondNumber = Random.nextInt(101);
         int thirdNumber = Random.nextInt(101);
         int randomSum = firstNumber + secondNumber + thirdNumber;
-        return randomSum;
+        return randomSum
 
 }
 
