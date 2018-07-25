@@ -12,8 +12,7 @@ public class SquareCalculator {
      */
     int squareResult(int firstNumber) {
         Scanner scanner = new Scanner(System.in);
-        int firstNumber = scanner.nextInt();
-        int squareResult = firstNumber * firstNumber;
-        return (squareResult);
+        int firstUserNumber = scanner.nextInt();
+        return (firstUserNumber * firstUserNumber);
     }
 }
