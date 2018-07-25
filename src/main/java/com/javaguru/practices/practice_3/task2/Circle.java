@@ -1,33 +1,18 @@
 package com.javaguru.practices.practice_3.task2;
 
-class Circle {
+public class Circle {
+    double radius;
 
-    /**
-     * Необходимо дополнить класс таким образом, чтобы метод (поведение) calculateArea()
-     * мог подсчитать площадь круга
-     */
-
-
-    /*
-    Состояние объекта
-    Необходимо добавить состояние
-     */
-
-    /*
-    Необходимо дополнить конструктор класса так, чтобы при создании
-    объекта менялось его состояние
-     */
-    public Circle(double radius) {
+    public double getRadius() {
+        return radius;
     }
 
-
-    /*
-    Поведение объекта
-
-    Необходимо переделать поведение объекта
-    таким образом, чтобы основываясь на состоянии можно было подсчитать площадь
-     */
-    double calculateArea() {
-        return 0;
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
+    public double calculateArea() {
+        double area = radius*radius*3.14;
+        return  area;
+    }
+
 }
