@@ -2,7 +2,6 @@ package com.javaguru.practices.practice_7.task1;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertArrayEquals;

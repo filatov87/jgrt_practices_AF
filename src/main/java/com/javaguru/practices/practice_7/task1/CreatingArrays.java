@@ -1,5 +1,7 @@
 package com.javaguru.practices.practice_7.task1;
 
+import java.util.Random;
+
 class CreatingArrays {
 
     /**
@@ -7,7 +9,13 @@ class CreatingArrays {
      */
 
     Integer[] integerArray(int n) {
-        return null;
+        Integer[] array = new Integer[n];
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(21);
+        }
+        return array;
+
     }
 
     /**
@@ -24,6 +32,14 @@ class CreatingArrays {
      */
 
     String[] stringArray() {
-        return null;
+        String[] array;
+        array = new String[26];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = String.valueOf(i);
+char c = (char) i;
+            System.out.print(c + " ");
+
+        }
+        return array;
     }
 }

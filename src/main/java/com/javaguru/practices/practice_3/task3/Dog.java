@@ -5,6 +5,8 @@ public class Dog {
     String color;
     Integer age;
 
+
+
     public String getName() {
         return name;
     }
