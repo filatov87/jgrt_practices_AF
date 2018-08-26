@@ -10,6 +10,13 @@ class EvenNumberCounter {
      */
 
     int getEvenNumberCount(int from, int to) {
-        return 0;
+        int evenNumberCount = 0;
+        for (int i = from; i <= to; i++) {
+            if(i % 2 == 0) {
+                evenNumberCount++;
+            }
+
+        }
+        return evenNumberCount;
     }
 }

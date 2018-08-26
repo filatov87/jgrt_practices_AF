@@ -10,6 +10,11 @@ class SumInRange {
      */
 
     int sum(int from, int to) {
-        return 0;
+        int numbersSum = 0;
+        for (int i = from; i <= to; i++) {
+            numbersSum = numbersSum + i;
+
+        }
+        return numbersSum;
     }
 }

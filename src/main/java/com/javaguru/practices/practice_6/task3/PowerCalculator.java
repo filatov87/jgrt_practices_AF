@@ -9,6 +9,9 @@ class PowerCalculator {
      * Примечание: описать алгоритм для положительтый чисел
      */
     int pow(int number, int power) {
-        return 0;
+        int result = 1;
+        for (int i=1; i <= power; i++)
+            result = result * number;
+        return result;
     }
 }
